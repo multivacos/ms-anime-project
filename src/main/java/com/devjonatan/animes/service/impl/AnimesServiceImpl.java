@@ -36,7 +36,7 @@ public class AnimesServiceImpl implements AnimesService {
 
 	@Override
 	public Anime guardarAnime(Anime anime) {
-		anime.setFechaCreacion(LocalDateTime.now());
+		//anime.setFechaCreacion(LocalDateTime.now());
 		return this.animesRepository.save(anime);
 	}
 

@@ -14,6 +14,7 @@ import javax.persistence.Table;
 
 import lombok.Data;
 
+
 /**
  * @author Jonatan
  * @version 1.0 27.11.2021
